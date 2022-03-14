@@ -1,0 +1,259 @@
+
+    .backgroundimg{
+        background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/1.jpg");
+        background-position: 50% 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        height: calc(100vh);
+        min-height: 700px;
+        position: relative;
+    }
+      .profile-img {
+    height: 4rem;
+    width:4rem ;
+    background: url('../images/person_1.webp');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .profile-img1 {
+    height: 4rem;
+    width:4rem ;
+    background: url('../images/person_2.webp');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .card-title{
+    padding-left: 80px;
+}
+.card-subtitle{
+  padding-left: 80px;
+}
+.jumbotron{
+    background-color: #6f42c1;
+}
+.icon{
+    color: #6f42c1;
+    font-size: 48px;
+}
+span{
+    color: #6f42c1;
+}
+p{
+    font-family: 'Iranian Sans', sans-serif;
+                                                
+}
+h3{
+    font-family: 'Iranian Sans', sans-serif;
+    font-weight: 400;
+}
+h2{
+    font-family: 'Iranian Sans', sans-serif;
+    font-weight: 400;
+}
+h1{
+    font-family: 'Iranian Sans', sans-serif;
+    font-weight: 400;
+}
+.logo{
+    font-family: 'Iranian Sans', sans-serif;
+    font-weight: 400;
+}
+.list1{
+    list-style-type: none;
+    font-family: 'Iranian Sans', sans-serif;
+}
+.a1{
+    color: black;
+}
+
+.img-overlay{
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    font-family: 'Iranian Sans', sans-serif;
+    font-weight: 400;
+    opacity: 0;
+    transition: all 200ms linear 0s;
+}
+.img-overlay:hover{
+    opacity: 1;
+}
+
+.backgroundimg{
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/1.jpg");
+    background-position: 50% 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: calc(100vh);
+    min-height: 700px;
+    position: relative;
+}
+.profile-img {
+height: 4rem;
+width:4rem ;
+background: url('../images/person_1.webp');
+background-size: cover;
+background-position: center;
+position: absolute;
+border-radius: 50%;
+}
+.profile-img1 {
+height: 4rem;
+width:4rem ;
+background: url('../images/person_2.webp');
+background-size: cover;
+background-position: center;
+position: absolute;
+border-radius: 50%;
+}
+.card-title{
+padding-right: 80px;
+font-family: 'Iranian Sans', sans-serif;
+font-weight: 400;
+}
+.card-subtitle{
+padding-right: 80px;
+}
+.jumbotron{
+background-color: #6f42c1;
+}
+.icon{
+color: #6f42c1;
+font-size: 3rem;
+padding-bottom: 15px;
+}
+.icon1{
+margin-top: 100px;
+}
+span{
+color: #6f42c1;
+}
+p{
+font-family: 'Iranian Sans', sans-serif;
+                                                
+}
+h3{
+font-family: 'Iranian Sans', sans-serif;
+font-weight: 400;
+}
+h2{
+font-family: 'Iranian Sans', sans-serif;
+font-weight: 400;
+}
+h1{
+font-family: 'Iranian Sans', sans-serif;
+font-weight: 400;
+}
+.logo{
+    font-family: 'Tajawal', sans-serif;
+}
+.nav-link{
+    font-family: 'Iranian Sans', sans-serif;
+}
+.list1{
+list-style-type: none;
+font-family: 'Iranian Sans', sans-serif;                                                
+}
+.list2{
+    list-style-type: none;
+}
+.a1{
+color: black;
+}
+
+.img-overlay{
+top: 0;
+left: 0;
+background: rgba(0, 0, 0, 0.4);
+font-family: 'Iranian Sans', sans-serif;
+font-weight: 400;
+opacity: 0;
+transition: all 200ms linear 0s;
+}
+.img-overlay:hover{
+opacity: 1;
+}
+.footer1{
+    margin-top: 100px;
+}
+.footer2{
+    margin-top: 100px;
+}
+.footer3{
+    margin-top: 100px;
+}
+.footer4{
+    margin-top: 100px;
+}
+.perple{
+    color: #6f42c1;
+}
+.slider-text{
+    padding-top: 250px;
+    font-family: 'Iranian Sans', sans-serif;
+}
+.margin1{
+    margin-top: 200px;
+}
+@media all and (max-width:575px){
+    .navbar{
+        background-color: black;
+    }
+    .slider-text{
+        font-size: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media all and (min-width:576px) and (max-width:767px){
+    .navbar{
+        background-color: black;
+    }
+    .slider-text{
+        font-size: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media all and (min-width:768px) and (max-width:991px){
+    .navbar{
+        background-color: black;
+    }
+    .slider-text{
+        font-size: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media all and (min-width:992px) and (max-width:1199px){
+    .icon{
+        margin-top: 100px;
+    }
+    .navbar{
+        background-color: black;
+    }
+    .slider-text{
+        font-size: 7rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+@media all and (min-width:1200px) {
+    .icon{
+        margin-top: 100px;
+    }
+    .navbar{
+        background-color: transparent;
+    }
+    .slider-text{
+        font-size: 7rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
